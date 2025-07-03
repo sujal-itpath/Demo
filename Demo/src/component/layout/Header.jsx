@@ -50,11 +50,11 @@ const Header = () => {
 
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/signin" className="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">
+            {/* <Link to="/signin" className="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200">
               Sign In
-            </Link>
+            </Link> */}
             <Link
-              to="/get-started"
+              to="/face-swap"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               Get Started
@@ -97,15 +97,15 @@ const Header = () => {
               )}
 
               <div className="flex flex-col space-y-2 pt-4 border-t border-gray-100">
-                <Link
+                {/* <Link
                   to="/signin"
                   className="text-gray-600 hover:text-gray-900 font-medium transition-colors duration-200 text-left px-2 py-1"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Sign In
-                </Link>
+                </Link> */}
                 <Link
-                  to="/get-started"
+                  to="/face-swap"
                   className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg"
                   onClick={() => setIsMenuOpen(false)}
                 >

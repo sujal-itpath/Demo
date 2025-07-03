@@ -80,7 +80,7 @@ const CartoonGallery = () => {
     : videos.filter(video => video.category === activeCategory);
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section id='gallery' className="py-24 bg-gray-50">
       <div className="mx-auto px-4 sm:px-6 lg:px-8"style={{ maxWidth: '1500px' }}>
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
