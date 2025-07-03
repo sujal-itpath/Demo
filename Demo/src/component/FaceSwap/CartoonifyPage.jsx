@@ -58,7 +58,7 @@ const CartoonifyPage = ({ onBack, onContinue }) => {
           {/* Original Photo */}
           <div className="bg-white rounded-2xl shadow-lg p-6">
             <div className="flex items-center space-x-2 mb-4">
-              <User className="w-5 h-5 text-gray-600" />
+              <User className="w-5 h-2 text-gray-600" />
               <h3 className="font-bold text-gray-900">Original Photo</h3>
             </div>
             <div className="aspect-square bg-gray-200 rounded-xl flex items-center justify-center mb-4 overflow-hidden">
